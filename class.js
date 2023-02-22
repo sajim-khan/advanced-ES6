@@ -20,8 +20,7 @@ const teacher = new Instructor('Sajim', 'Dhaka');
 console.log(teacher);
 teacher.startSupportSession('9.00');
 teacher.createQuiz(50);
- 
- 
+  
 const teachers = new Instructor('shahadat', 'Dhaka');
 console.log(teachers);
 teachers.startSupportSession('9.00');

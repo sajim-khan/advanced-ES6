@@ -17,6 +17,27 @@ function add (a, b) {
     return a + b;
 }
 //2.Arrow function
-const add = (a, b) => {return a + b};
-//Another way
-const add = (a, b) => a + b;
+// const add = (a, b) => {return a + b};
+// //Another way
+// const add = (a, b) => a + b;
+
+
+class Instructor {
+    age;
+    name = 'sajim'; 
+    location = 'Dhaka';
+    designation;
+    
+    constructor(a, b){
+        this.age = a;
+        this.designation = b;
+    }
+    createMeetings(time){
+        console.log(`Today our meeting at ${time}`);
+    }
+}
+
+const teacher = new Instructor('34', 'Web Instructor');
+console.log(teacher);
+teacher.createMeetings('10pm')
+
