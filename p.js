@@ -37,7 +37,46 @@ class Instructor {
     }
 }
 
-const teacher = new Instructor('34', 'Web Instructor');
-console.log(teacher);
-teacher.createMeetings('10pm')
+// const teacher = new Instructor('34', 'Web Instructor');
+// console.log(teacher);
+// teacher.createMeetings('10pm')
 
+const student = {
+    name: 'Student',
+    age: 34,
+}
+//console.log(student.age);
+
+let data = {
+    location : [
+    {
+        city : 'dhaka'
+    }
+       
+    ]
+}
+//console.log(data.location[0].city);
+
+const product = {name: 'Laptop', model:'Yoga 3', price:49000, dusk: '512SSD'}
+const {price} = product.price
+console.log(price);
+
+const student = {
+    name: 'Student',
+    age: 34,
+}
+//console.log(student.age);
+
+let datas = {
+    location : [
+    {
+        city : 'dhaka'
+    }
+       
+    ]
+}
+//console.log(datas.location[0].city);
+
+const products = {name: 'Laptop', model:'Yoga 3', price:49000, dusk: '512SSD'}
+const {prices} = product.price
+console.log(price);
